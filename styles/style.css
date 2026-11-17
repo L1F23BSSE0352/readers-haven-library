@@ -2,3 +2,8 @@
 body {
   font-family: sans-serif;
 }
+/* Services page responsive styles */
+@media (max-width: 600px) {
+  .card-grid { grid-template-columns: 1fr; }
+  .service-icon { font-size: 28px; }
+}

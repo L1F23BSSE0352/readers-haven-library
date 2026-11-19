@@ -5,4 +5,4 @@ Static website containerized with Docker (multi-stage build: Node.js builder + N
 
 ## Build locally
 npm ci
-npm run build
+npm run buildRelease v2.0

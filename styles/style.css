@@ -1,5 +1,8 @@
+ feature/contact-page
 
 
+
+ develop
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
 
 :root {
@@ -382,7 +385,12 @@ footer p {
         font-size: 29px;
     }
 }
+ feature/contact-page
+        
+   /*index*/
 
+
+ develop
 @media (max-width: 480px) {
     nav a {
         font-size: 12px;
@@ -392,6 +400,12 @@ footer p {
         font-size: 36px;
     }
 }
+feature/contact-page
+/* Contact page responsive styles */
+@media (max-width: 600px) {
+  .contact-grid { grid-template-columns: 1fr; }
+  .contact-info, .contact-form { padding: 16px; }
+
 
 /* ===== Membership page (Member 2) ===== */
 .mem-intro {
@@ -474,6 +488,7 @@ footer p {
     .col-grid {
         grid-template-columns: 1fr;
     }
+ develop
 }
 /* Services page responsive styles */
 @media (max-width: 600px) {

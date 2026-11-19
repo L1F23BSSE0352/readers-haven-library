@@ -433,9 +433,31 @@ footer p {
 
 .mem-card ul,
 .mem-rules ul {
+
+/* ===== Collections page ===== */
+.col-intro {
+    text-align: center;
+}
+
+.col-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.col-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.col-card ul {
     padding-left: 20px;
     line-height: 1.8;
 }
+
 
 @media (max-width: 600px) {
     .mem-plans {
@@ -445,5 +467,11 @@ footer p {
     .mem-card {
         max-width: 100%;
         width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .col-grid {
+        grid-template-columns: 1fr;
     }
 }
